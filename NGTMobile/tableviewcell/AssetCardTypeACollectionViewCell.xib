@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="robotocondensed_bold.ttf">
+            <string>RobotoCondensed-Bold</string>
+        </array>
+        <array key="robotocondensed_light.ttf">
+            <string>RobotoCondensed-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AssetCardTypeACollectionViewCell" customModule="NGTMobile" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIX-Bd-4iU">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avF-7l-iLW">
+                                <rect key="frame" x="5" y="5" width="333" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019-05-25, 7:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vs0-48-F0n">
+                                        <rect key="frame" x="130.5" y="74" width="72" height="11"/>
+                                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="9"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Alert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llb-OF-lmP">
+                                        <rect key="frame" x="10" y="10" width="56" height="17"/>
+                                        <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Panic Trigger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2do-cq-2mm">
+                                        <rect key="frame" x="10" y="27" width="75" height="17"/>
+                                        <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2do-cq-2mm" firstAttribute="leading" secondItem="avF-7l-iLW" secondAttribute="leading" constant="10" id="AA8-0p-y2y"/>
+                                    <constraint firstItem="Llb-OF-lmP" firstAttribute="leading" secondItem="avF-7l-iLW" secondAttribute="leading" constant="10" id="R5a-eG-DMw"/>
+                                    <constraint firstItem="Llb-OF-lmP" firstAttribute="top" secondItem="avF-7l-iLW" secondAttribute="top" constant="10" id="S6T-fM-Lgn"/>
+                                    <constraint firstItem="vs0-48-F0n" firstAttribute="centerX" secondItem="avF-7l-iLW" secondAttribute="centerX" id="auJ-3h-Ulw"/>
+                                    <constraint firstAttribute="bottom" secondItem="vs0-48-F0n" secondAttribute="bottom" constant="5" id="uh4-a8-lvu"/>
+                                    <constraint firstItem="2do-cq-2mm" firstAttribute="top" secondItem="Llb-OF-lmP" secondAttribute="bottom" id="uz1-bD-KKF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="avF-7l-iLW" secondAttribute="trailing" constant="5" id="6Te-Qw-uwh"/>
+                            <constraint firstAttribute="bottom" secondItem="avF-7l-iLW" secondAttribute="bottom" constant="5" id="6f7-7s-cs5"/>
+                            <constraint firstItem="avF-7l-iLW" firstAttribute="leading" secondItem="gIX-Bd-4iU" secondAttribute="leading" constant="5" id="9Yg-d0-Mjy"/>
+                            <constraint firstItem="avF-7l-iLW" firstAttribute="top" secondItem="gIX-Bd-4iU" secondAttribute="top" constant="5" id="ia1-10-cMq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="gIX-Bd-4iU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0WB-MI-lMo"/>
+                <constraint firstAttribute="trailing" secondItem="gIX-Bd-4iU" secondAttribute="trailing" id="5sX-GB-2hW"/>
+                <constraint firstAttribute="bottom" secondItem="gIX-Bd-4iU" secondAttribute="bottom" id="ExL-Ed-YjL"/>
+                <constraint firstItem="gIX-Bd-4iU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XTo-NB-02D"/>
+            </constraints>
+            <size key="customSize" width="343" height="100"/>
+            <connections>
+                <outlet property="innerView" destination="avF-7l-iLW" id="4q2-K5-raC"/>
+                <outlet property="item1Label" destination="2do-cq-2mm" id="fZ6-cZ-qil"/>
+                <outlet property="noteLabel" destination="vs0-48-F0n" id="hIj-Zo-Ai8"/>
+                <outlet property="outerView" destination="gIX-Bd-4iU" id="lWK-cz-hZX"/>
+                <outlet property="titleLabel" destination="Llb-OF-lmP" id="3wF-0O-SHa"/>
+            </connections>
+            <point key="canvasLocation" x="351.44927536231887" y="122.54464285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

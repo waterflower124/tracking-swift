@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (5.4.0)
+  - DropDown (2.3.13)
+  - DynamicBlurView (4.1.0)
+  - GoogleMaps (4.0.0):
+    - GoogleMaps/Maps (= 4.0.0)
+  - GoogleMaps/Base (4.0.0)
+  - GoogleMaps/Maps (4.0.0):
+    - GoogleMaps/Base
+  - GooglePlaces (4.0.0):
+    - GoogleMaps/Base (= 4.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - ObjectMapper (4.2.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - ObjectMapper
+  - PopupDialog
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - DynamicBlurView
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+    - PopupDialog
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  GoogleMaps: b7f7fc569a9b354a3af0d9729dbec40957b7d41e
+  GooglePlaces: ca8d4aba09ba79e0a829cf1dca03a41de6a09016
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: da1eb40d7651017f72d5c5179cc2385d30a093f6
+
+COCOAPODS: 1.9.3
